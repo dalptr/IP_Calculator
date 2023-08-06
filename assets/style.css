@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+:root {
+    --primary-color: #0E61FE
+}
+
+.full-width {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 20px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    color: #FF7BAC;
+    font-size: 40px;
+    font-family: 'Roboto Light', serif
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+button {
+    border: 0;
+    background-color: var(--primary-color);
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+td {
+    width: 50%;
+    border: none;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* if row is even, td background color: white */
+tr:nth-child(even) td {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) td {
+    background-color: #e3e3e3;
+}
